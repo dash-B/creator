@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<title>DashB version Creator</title>
+		<link rel='stylesheet' type='text/css' href='style.css' />
+		<script src='main.js'></script>
+	</head>
+	<body>
+		<div id='menu'>
+			<textarea class='menu-item' id='x' placeholder='x (from the left side of the page) (ex. 20%)'
+             spellcheck='false'></textarea>
+			<textarea class='menu-item' id='y' placeholder='y (from the top side of the page) (ex. 20%). REMEMBER: you must add 10% of the screen height to your y position.'
+             spellcheck='false'></textarea>
+			<textarea class='menu-item' id='width' placeholder='width (ex. 20%)' spellcheck='false'></textarea>
+			<textarea class='menu-item' id='height' placeholder='height (ex. 20%). REMEMBER: you must remove 10% from your element height (so that you don&#39;t cover the menu)' spellcheck='false'></textarea>
+			<textarea class='menu-item' id='background' placeholder='background (ex. white)' spellcheck='false'></textarea>
+			<button class='menu-item' id='add-cell'>Add</button>
+			<button class='menu-item' id='rem-cell'>Remove</button>
+			<button class='menu-item' id='download'>Download</button>
+			<select class='menu-item' id='widget'>
+				<option value='blank'>Blank</option>
+				<option value='clock'>Clock</option>
+			</select>
+		</div>
+		<div class='clock'></div>
+	</body>
+</html>
