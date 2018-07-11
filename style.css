@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 html,body{margin:0;padding:0;overflow:hidden;width:100%;height:100%;}
-#menu{float:left;width:100%;height:10%;background:#6c6;}
-.menu-item{float:left;width:8%;height:100%;margin:0;padding:0;text-align:center;font-family:'Roboto Condensed';
-           border:0;outline:0;padding:0 1% 0 1%;resize:none;background:inherit;color:#454;}
-button.menu-item{font-size:150%;color:#454;}
-select.menu-item{font-size:125%;}
+body{
+ --primary:#6cc;
+ --secondary:#454;
+ --tertiary:#c66;
+}
+#menu{float:left;width:100%;height:10%;background:var(--primary);}
+.menu-item{float:left;height:100%;margin:0;padding:0;text-align:center;font-family:'Roboto Condensed';
+           border:0;outline:0;padding:0 1% 0 1%;resize:none;background:inherit;color:var(--secondary);}
+textarea.menu-item{width:4%;font-size:90%;}
+button.menu-item{width:7%;font-size:125%;color:var(--secondary);}
+select.menu-item{width:7%;font-size:125%;}
 .clock{display:flex;justify-content:center;align-items:center;width:10%;height:10%;}
